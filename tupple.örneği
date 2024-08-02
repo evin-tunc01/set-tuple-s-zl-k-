@@ -1,0 +1,15 @@
+# Tuple oluşturma
+coordinates = (10, 20)
+
+# Tuple elemanlarına erişim
+x = coordinates[0]
+y = coordinates[1]
+
+# Tuple unpacking
+x, y = coordinates
+
+print(f"x: {x}, y: {y}")
+
+# Tuple içinde döngü
+for coord in coordinates:
+    print(coord)
