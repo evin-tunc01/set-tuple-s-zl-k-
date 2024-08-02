@@ -1,0 +1,27 @@
+# Sözlük oluşturma
+student = {
+    "name": "John",
+    "age": 21,
+    "courses": ["Math", "Science"]
+}
+
+# Sözlük elemanlarına erişim
+name = student["name"]
+age = student.get("age")
+
+# Yeni anahtar-değer çifti ekleme
+student["grade"] = "A"
+
+# Anahtar-değer çiftini güncelleme
+student["age"] = 22
+
+# Anahtar-değer çiftini silme
+del student["courses"]
+
+print(f"Öğrenci Adı: {name}")
+print(f"Öğrenci Yaşı: {age}")
+print(f"Öğrenci Bilgileri: {student}")
+
+# Sözlük üzerinde döngü
+for key, value in student.items():
+    print(f"{key}: {value}")
