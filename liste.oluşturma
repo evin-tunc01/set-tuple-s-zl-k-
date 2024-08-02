@@ -1,0 +1,22 @@
+
+# Online Python - IDE, Editor, Compiler, Interpreter
+
+# Liste oluşturma
+fruits = ["apple", "banana", "cherry"]
+
+# Listeye eleman ekleme
+fruits.append("orange")
+
+# Liste elemanını çıkarma
+fruits.remove("banana")
+
+# Elemanlara erişim
+first_fruit = fruits[0]
+
+# Listeyi döngü ile gezme
+for fruit in fruits:
+    print(fruit)
+
+# Liste uzunluğu
+print(f"Liste uzunluğu: {len(fruits)}")
+
